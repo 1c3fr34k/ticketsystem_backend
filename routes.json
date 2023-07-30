@@ -1,0 +1,32 @@
+[
+  {
+    "method": "POST",
+    "path": "/api/tickets/create",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.CreateTicket-fm"
+  },
+  {
+    "method": "GET",
+    "path": "/api/tickets/:id",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.GetTicket-fm"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/tickets/:id",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.UpdateTicket-fm"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/tickets/:id/close",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.CloseTicket-fm"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/tickets/:id/open",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.OpenTicket-fm"
+  },
+  {
+    "method": "GET",
+    "path": "/api/tickets",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.GetTickets-fm"
+  }
+]
