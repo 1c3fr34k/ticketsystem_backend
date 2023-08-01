@@ -15,7 +15,11 @@ func Connect(dsn string) (*gorm.DB, error) {
 		return nil, err
 	}
 
-	models.Migrate(db)
+	Migrate(db)
 
 	return db, err
+}
+
+func Migrate(db *gorm.DB) {
+	db.AutoMigrate(&models.Ticket{})
 }
