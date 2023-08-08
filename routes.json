@@ -1,13 +1,43 @@
 [
   {
     "method": "GET",
-    "path": "/api/tickets",
-    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.GetTickets-fm"
+    "path": "/swagger/*",
+    "name": "github.com/swaggo/echo-swagger.EchoWrapHandler.func1"
   },
   {
     "method": "POST",
     "path": "/api/tickets/create",
     "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.CreateTicket-fm"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/tickets/:id/close",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.CloseTicket-fm"
+  },
+  {
+    "method": "GET",
+    "path": "/api/users/:id",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/users.UsersRouter.GetUser-fm"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/tickets/:id/open",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.OpenTicket-fm"
+  },
+  {
+    "method": "POST",
+    "path": "/api/users/create",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/users.UsersRouter.CreateUser-fm"
+  },
+  {
+    "method": "GET",
+    "path": "/api/users",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/users.UsersRouter.GetUsers-fm"
+  },
+  {
+    "method": "GET",
+    "path": "/api/tickets",
+    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.GetTickets-fm"
   },
   {
     "method": "GET",
@@ -18,15 +48,5 @@
     "method": "PUT",
     "path": "/api/tickets/:id",
     "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.UpdateTicket-fm"
-  },
-  {
-    "method": "PUT",
-    "path": "/api/tickets/:id/close",
-    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.CloseTicket-fm"
-  },
-  {
-    "method": "PUT",
-    "path": "/api/tickets/:id/open",
-    "name": "github.com/1c3fr34k/ticketsystem_backend/routes/tickets.TicketsRouter.OpenTicket-fm"
   }
 ]
