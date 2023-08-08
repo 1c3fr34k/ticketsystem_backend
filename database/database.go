@@ -21,5 +21,5 @@ func Connect(dsn string) (*gorm.DB, error) {
 }
 
 func Migrate(db *gorm.DB) {
-	db.AutoMigrate(&models.Ticket{})
+	db.AutoMigrate(&models.User{}, &models.Ticket{})
 }
