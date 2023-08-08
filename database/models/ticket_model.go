@@ -6,7 +6,8 @@ import (
 
 type Ticket struct {
 	gorm.Model
-	Name        string
+	Name        string `gorm:"not null"`
 	Description string
-	IsOpen      bool
+	IsOpen      bool `gorm:"default:true"`
+	UserID      uint `gorm:"not null"`
 }
